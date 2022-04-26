@@ -1,0 +1,66 @@
+/*cuerpo de la pantalla*/
+body{
+    background: url(./Imagenes/12.jpeg) no-repeat center center fixed ;
+    background-size: cover;
+}
+/* ubicacion del contenedor en la pantalla */
+.main-section{
+    margin: 0  auto;
+    margin-top: 25%;
+    padding: 0;
+}
+/*contenedor de login*/
+.modal-content{
+    background-color:  rgb(10, 110, 100);
+    opacity: 85%;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 3px rgba(64, 224, 208, 0.801);
+   
+}
+/*ubicacion de imagen de usuario*/
+.user-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+/*imagen de usuario - caracteristicas*/
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px rgba(64, 224, 208, 0.801);
+    border-radius: 50%;
+}
+/*botones del form*/
+.form-group input{
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+}
+/*iconos de los botones*/
+.form-group::before{
+    font-family: "font Awesome\ 5 free";
+    position: absolute;
+    left: 25px;
+    font-size: 28px;
+    padding-top: 2px;
+}
+.form-group#user-group::before{
+    content: "\f2bd";
+}
+.form-group#contrasena-group::before{
+    content: "\f09c";
+}
+/*boton ingresar*/
+button{
+    width: 60%;
+    margin: 5px 0 25px;
+}
+/*recordar contraseña*/
+.forgot{
+    padding: 5px 0 5px;
+}
+.forgot a{
+    color: white;
+}
